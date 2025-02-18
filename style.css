@@ -220,11 +220,11 @@ nav{
 #main-left{
     text-align: start;
     width: 28vw;
-    margin: 210px 200px;
+    margin: 200px 170px;
 }
 
 #main-left h1{
-    font-size: 66px;
+    font-size: 56px;
     font-family: rza-light;
     font-weight: 200;
     letter-spacing: -2px;
@@ -235,9 +235,9 @@ nav{
 
 
 #main-left h3{
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.3;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
     color: #878787;
     font-weight: 100;
 }
@@ -302,7 +302,7 @@ nav{
 }
 
 .adv h2{
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 25px;
     color: #636363;
 }
@@ -329,7 +329,7 @@ nav{
 }
 
 #page2 h1{
-    font-size: 55px;
+    font-size: 45px;
     font-family: rza-light;
     /* margin-top: 40px; */
 }
@@ -359,7 +359,7 @@ nav{
 
 #msg-box h1{
     font-family: inter;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -376,21 +376,22 @@ nav{
 }
 
 #heading{
-    width: 25vw;
+    width: 22vw;
     text-align: start;
-    margin-left: 250px;
+    margin-left: 220px;
     margin-top: 50px;
 }
 
 h1 {
-    font-size: 53px;
+    font-size: 45px;
     font-family: rza-light;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .subtitle {
-    font-size: 19px;
+    font-size: 16px;
+    line-height: 1.5;
     color: #666;
     margin-bottom: 30px;
 }
@@ -410,52 +411,40 @@ h1 {
 }
 
 label {
-    font-size: 18px;
-    color: #363636;
+    font-size: 16px;
+    color: #737373;
     margin-bottom: 5px;
 }
 
 input {
     padding: 10px;
-    width: 383px;
-    height: 55px;
-    border: 2px solid #b0b0b0;
+    width: 343px;
+    height: 45px;
+    border: 2px solid #dcdcdc;
     border-radius: 15px;
-}
-
-
-button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background: #000000;
-    color: #fff;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 .result-container {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .result-box {
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 250px;
+    width: 210px;
     height: 30vh;
 }
 
 .result-value {
     font-size: 70px;
     font-family: rza-light;
-    margin-bottom: 42px;
+    margin-bottom: 22px;
 }
 
 .highlight {
@@ -464,14 +453,14 @@ button {
 
 #info-para{
     color: #636363;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 small {
     display: block;
     font-size: 16px;
     color: #666;
-    margin-top: 38px;
+    margin-top: 30px;
 }        
 
 #team-size, #emails-per-teammate{
@@ -499,12 +488,12 @@ small {
 }
 
 #page4 #head-para h1{
-    font-size: 52px;
+    font-size: 47px;
     margin-top: 50px;
 }
 
 #page4 #head-para h4{
-    font-size: 22px;
+    font-size: 18px;
     color: #636363;
     font-weight: lighter;
 }
@@ -521,8 +510,8 @@ small {
 }
 
 .icon-div{
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -565,7 +554,7 @@ small {
     background-color: #ffdcd1;
     display: grid;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 40px;
 }
 
@@ -616,40 +605,46 @@ small {
     width: 75px;
     height: 25px;
     padding: 4px;
-    font-size: 13.5px;
+    font-size: 12px;
     text-align: center;
     color: #ff3c00;
     border-radius: 5px;
-    background-color: #ffe6df;
+    background-color: #ffefeb;
+    margin-bottom: 10px;
 }
 
 #step2{
     width: 75px;
     height: 25px;
     padding: 4px;
-    font-size: 13.5px;
+    font-size: 12px;
     text-align: center;
     color: #ffaa00;
     border-radius: 5px;
-    background-color: #ffefdf;
+    background-color: #fff5ec;
+    margin-bottom: 10px;
 }
 
 #step3{
     width: 75px;
     height: 25px;
     padding: 4px;
-    font-size: 13.5px;
+    font-size: 12px;
     text-align: center;
     color: #ae00ff;
     border-radius: 5px;
-    background-color: #f1dfff;
+    background-color: #f7ecff;
+    margin-bottom: 10px;
 }
+
+
 
 #main-steps .process{
     height: 70vh;
     width: 60vw;
     border: 1px solid grey;
     border-radius: 20px;
+    margin-top: 5px;
 }
 
 
@@ -661,13 +656,14 @@ small {
 }
 
 .btn {
-    padding: 8px 10px;
+    padding: 6px 10px;
     margin: 5px;
     border: none;
     cursor: pointer;
     background-color: #fff;
     color: #636363;
-    font-size: 19px;
+    font-size: 17px;
+    border-radius: 10px;
 }
 .active {
     background-color: rgb(236, 236, 236);
@@ -704,7 +700,7 @@ span{
 
 #elem #invite{
     height: 5vh;
-    width: 10vw;
+    width: 11vw;
     font-size: 12px;
     letter-spacing: .5px;
     color: #dedede;
@@ -723,8 +719,8 @@ span{
     letter-spacing: 1px;
     border-radius: 5px;
     position: absolute;
-    bottom: -23%;
-    padding: 20px 55px;
+    bottom: -20%;
+    padding: 17px 40px;
     transition: opacity 0.3s ease-in-out;
     background: linear-gradient(to right, #7f7fd5, #86a8e7, #bc91ea);
 }
@@ -875,6 +871,7 @@ span{
 
 #btn-box{
     display: flex;
+    margin-top: 10px;
 }
 
 #adv-box2{
