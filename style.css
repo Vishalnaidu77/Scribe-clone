@@ -103,7 +103,7 @@ nav{
     color: white;
     font-size: 18px;
     padding: 17px;
-    margin-bottom: 19px;
+    /* margin-bottom: 10px; */
     border: none;
     border-radius: 15px;
     text-decoration: none;
@@ -461,7 +461,8 @@ small {
     font-size: 16px;
     color: #666;
     margin-top: 30px;
-}        
+}       
+
 
 #team-size, #emails-per-teammate{
     z-index: 45;
@@ -985,11 +986,11 @@ span{
 
 
 #page6 h4{
-    width:20vw;
+    width:30vw;
     font-size: 22px;
     color: #808080;
     font-weight: 300;
-    margin: 10px 680px;
+    margin: 10px 530px;
 
 }
 
@@ -1068,7 +1069,7 @@ nav{
 
 
 #page1 {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
 }
@@ -1111,7 +1112,7 @@ nav{
 
 #page1-left-div #logo{
     left: 20%;
-    bottom: 25%;
+    bottom: 30%;
     width: 60vw;
     line-height: 4;
 }
@@ -1270,6 +1271,10 @@ small {
     margin-top: 50px;
 }        
 
+
+#small{
+    margin-bottom: 10px;
+}
 
 #arrow{
     display: none;
